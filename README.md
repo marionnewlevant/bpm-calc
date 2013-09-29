@@ -15,7 +15,7 @@ $ npm install bpm-calc -g
 $ bpm-calc
 ````
 
-hit space, count 10 3 beat measures, hit space again. q to quit.
+hit space, count 10 3-beat measures, hit space again. q to quit.
 
 ### Specify number of measures to count or number of beats per measure
 
