@@ -1,10 +1,10 @@
 {
   "name": "bpm-calc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "command line utility for calculating beats per minute",
   "keywords": ["bpm", "beats per minute", "music"],
   "preferGlobal": "true",
-  "bin": { "bpmCalc": "index.js" },
+  "bin": { "bpm-calc": "index.js" },
   "main": "index.js",
   "scripts": {
     "test": "mocha"
