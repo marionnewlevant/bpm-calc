@@ -1,14 +1,7 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+#SDK cruft
+.project
 
-pids
-logs
-results
+# other node modules
+node_modules/
 
 npm-debug.log

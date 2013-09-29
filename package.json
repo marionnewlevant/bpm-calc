@@ -1,0 +1,33 @@
+{
+  "name": "bpm-calc",
+  "version": "0.0.0",
+  "description": "command line utility for calculating beats per minute",
+  "keywords": ["bpm", "beats per minute", "music"],
+  "preferGlobal": "true",
+  "bin": { "bpmCalc": "index.js" },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": {
+    "name": "Marion Newlevant",
+    "email": "marion.newlevant@gmail.com",
+    "url": "http://marion.newlevant.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://marionnewlevant@github.com/marionnewlevant/bpm-calc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marionnewlevant/bpm-calc/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "~1.3.0"
+  },
+  "dependencies": {
+    "keypress": "~0.2.1",
+    "optimist": "~0.6.0"
+  }
+}
